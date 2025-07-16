@@ -5,8 +5,8 @@
 [build.environment]
   NODE_VERSION = "20"
   NPM_FLAGS = "--legacy-peer-deps"
-  MEDUSA_BACKEND_URL = "https://medusa-demo.medusajs.com"
-  NEXT_PUBLIC_MEDUSA_PUBLISHABLE_KEY = "pk_01H1YVDP1Q4D9X41G1JNKWPA2B"
+  MEDUSA_BACKEND_URL = "http://localhost:9000"
+  NEXT_PUBLIC_MEDUSA_PUBLISHABLE_KEY = "pk_2581f0d420f2b863b34fcaaaa95fccd43200f027bd179b466bacdd70fd4ecdac"
   NEXT_PUBLIC_BASE_URL = "https://placeholder.netlify.app"
   NEXT_PUBLIC_DEFAULT_REGION = "us"
   REVALIDATE_SECRET = "supersecret"
