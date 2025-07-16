@@ -7,6 +7,8 @@ checkEnvVariables()
  */
 const nextConfig = {
   reactStrictMode: true,
+  output: 'export',
+  trailingSlash: true,
   logging: {
     fetches: {
       fullUrl: true,
@@ -19,6 +21,7 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "http",

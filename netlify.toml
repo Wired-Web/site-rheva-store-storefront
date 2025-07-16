@@ -1,0 +1,13 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[context.production.environment]
+  MEDUSA_BACKEND_URL = "https://site-rheva-store.onrender.com"
+  NEXT_PUBLIC_MEDUSA_PUBLISHABLE_KEY = "pk_2581f0d420f2b863b34fcaaaa95fccd43200f027bd179b466bacdd70fd4ecdac"
+  NEXT_PUBLIC_BASE_URL = "https://placeholder.netlify.app"
+  NEXT_PUBLIC_DEFAULT_REGION = "us"
+  REVALIDATE_SECRET = "supersecret" 
