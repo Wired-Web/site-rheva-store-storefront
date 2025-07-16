@@ -7,7 +7,7 @@ checkEnvVariables()
  */
 const nextConfig = {
   reactStrictMode: true,
-  output: 'export',
+  // Removed output: 'export' to support dynamic routes with SSR
   trailingSlash: true,
   logging: {
     fetches: {
